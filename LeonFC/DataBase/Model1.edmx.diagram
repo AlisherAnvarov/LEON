@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="51930df138ec4662bf68990c12d84d59" Name="Diagram1" ZoomLevel="55">
+        <EntityTypeShape EntityType="FitnesClubLeonModel.Client" Width="1.5" PointX="3" PointY="1" />
+        <EntityTypeShape EntityType="FitnesClubLeonModel.Emplovee" Width="1.5" PointX="3" PointY="6.125" />
+        <EntityTypeShape EntityType="FitnesClubLeonModel.Gender" Width="1.5" PointX="0.75" PointY="2.125" />
+        <EntityTypeShape EntityType="FitnesClubLeonModel.Order" Width="1.5" PointX="5.25" PointY="1.75" />
+        <EntityTypeShape EntityType="FitnesClubLeonModel.Service" Width="1.5" PointX="5.25" PointY="5.625" />
+        <EntityTypeShape EntityType="FitnesClubLeonModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="8.75" />
+        <EntityTypeShape EntityType="FitnesClubLeonModel.Trainer" Width="1.5" PointX="7.5" PointY="5.875" />
+        <EntityTypeShape EntityType="FitnesClubLeonModel.OrderService" Width="1.5" PointX="7.5" PointY="2" />
+        <AssociationConnector Association="FitnesClubLeonModel.FK_Client_Gender" />
+        <AssociationConnector Association="FitnesClubLeonModel.FK_Order_Client2" />
+        <AssociationConnector Association="FitnesClubLeonModel.FK_Order_Emplovee1" />
+        <AssociationConnector Association="FitnesClubLeonModel.FK_OrderService_Order1" />
+        <AssociationConnector Association="FitnesClubLeonModel.FK_OrderService_Service1" />
+        <AssociationConnector Association="FitnesClubLeonModel.TrainerService" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
